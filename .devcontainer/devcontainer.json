@@ -1,5 +1,5 @@
 {
-  "image": "docker.io/bellsoft/liberica-openjdk-alpine:21",
+  "image": "docker.io/bellsoft/liberica-native-image-kit-container:jdk-17-nik-22",
   "features": {
   }
 }
