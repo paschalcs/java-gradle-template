@@ -1,5 +1,5 @@
 {
-  "image": "docker.io/bellsoft/liberica-native-image-kit-container:jdk-17-nik-22",
+  "image": "docker.io/bellsoft/liberica-native-image-kit-container:jdk-17-nik-22-glibc",
   "features": {
   }
 }
