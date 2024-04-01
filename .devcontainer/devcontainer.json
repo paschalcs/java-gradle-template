@@ -1,5 +1,17 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:21",
+  "image": "docker.io/bellsoft/liberica-openjdk-alpine:21",
   "features": {
-  }
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
+      "upgradePackages": true,
+      "username": "panther",
+      "userUid": "automatic",
+      "userGid": "automatic",
+      "nonFreePackages": false
+    }
+  },
+  "containerUser": "panther"
 }
