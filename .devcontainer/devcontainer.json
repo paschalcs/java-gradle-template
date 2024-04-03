@@ -13,5 +13,16 @@
       "nonFreePackages": false
     }
   },
-  "containerUser": "panther"
+  "containerUser": "panther",
+  "customizations": {
+    "codespaces": {},
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "vscjava.vscode-gradle",
+        "vscjava.vscode-java-pack",
+        "eamodio.gitlens"
+      ]
+    }
+  }
 }
