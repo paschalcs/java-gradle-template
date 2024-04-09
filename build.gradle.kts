@@ -17,7 +17,7 @@ plugins {
 }
 
 allprojects {
-  group = "com.willmolloy"
+  group = "edu.paschalcs"
   repositories {
     mavenCentral()
   }
@@ -106,6 +106,7 @@ subprojects {
     implementation("org.apache.logging.log4j:log4j-core:$log4jVersion")
     implementation("com.github.spotbugs:spotbugs-annotations:4.8.0")
     implementation("com.google.guava:guava:$guavaVersion")
+
 
     val junitVersion = "5.10.0"
     val truthVersion = "1.1.5"
