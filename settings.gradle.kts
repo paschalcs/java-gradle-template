@@ -1,2 +1,2 @@
-rootProject.name = "java-gradle-template"
+rootProject.name = "csa-java-template"
 include("hello-world")
