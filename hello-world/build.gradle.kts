@@ -11,7 +11,7 @@ application {
 sourceSets{
   main {
     java {
-      srcDir("src/main/java/edu/paschalcs")
+      srcDir("edu/paschalcs")
     }
   }
 }

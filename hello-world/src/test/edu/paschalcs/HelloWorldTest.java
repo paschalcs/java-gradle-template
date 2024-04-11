@@ -1,4 +1,4 @@
-package com.willmolloy;
+package edu.paschalcs;
 
 import static com.google.common.truth.Truth.assertThat;
 
