@@ -1,2 +1,2 @@
-rootProject.name = "csa-java-template"
+rootProject.name = "edu.paschalcs"
 include("hello-world")
