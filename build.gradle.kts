@@ -113,6 +113,7 @@ subprojects {
     val retrofitVersion = "2.11.0"
     val commons_emailVersion =" 1.6.0"
     
+
     implementation("com.github.spotbugs:spotbugs-annotations:4.8.0")
     implementation("com.google.guava:guava:$guavaVersion")
     implementation("ch.qos.logback:logback-core:$logbackVersion")
@@ -124,6 +125,7 @@ subprojects {
     implementation("commons-cli:commons-cli:$commons_cliVersion")
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("org.apache.commons:commons-email:$commons_emailVersion")
+
     
 
     val junitVersion = "5.10.0"
