@@ -111,6 +111,8 @@ subprojects {
     val n4jVersion = "5.18.1"
     val commons_cliVersion= "1.6.0"
     val retrofitVersion = "2.11.0"
+    val commons_emailVersion =" 1.6.0"
+    
 
     implementation("com.github.spotbugs:spotbugs-annotations:4.8.0")
     implementation("com.google.guava:guava:$guavaVersion")
@@ -122,6 +124,8 @@ subprojects {
     implementation("org.neo4j:neo4j-graph-algo:$n4jVersion")
     implementation("commons-cli:commons-cli:$commons_cliVersion")
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
+    implementation("org.apache.commons:commons-email:$commons_emailVersion")
+
     
 
     val junitVersion = "5.10.0"
