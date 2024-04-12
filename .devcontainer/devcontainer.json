@@ -13,7 +13,7 @@
       "nonFreePackages": false
     }
   },
-  "containerUser": "panther",
+  "containerUser": "root",
   "customizations": {
     "codespaces": {},
     "vscode": {
