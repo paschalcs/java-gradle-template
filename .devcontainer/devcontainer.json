@@ -11,9 +11,10 @@
       "userUid": "automatic",
       "userGid": "automatic",
       "nonFreePackages": false
-    }
+    },
+    "ghcr.io/paschalcs/pardus-features/common-alpine:latest": {}
   },
-  "containerUser": "root",
+  "containerUser": "panther",
   "customizations": {
     "codespaces": {},
     "vscode": {
