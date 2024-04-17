@@ -112,7 +112,7 @@ subprojects {
     val commons_cliVersion= "1.6.0"
     val retrofitVersion = "2.11.0"
     val commons_emailVersion =" 1.6.0"
-    
+    val webDriver_version = "4.19.1"
 
     implementation("com.github.spotbugs:spotbugs-annotations:4.8.0")
     implementation("com.google.guava:guava:$guavaVersion")
@@ -125,8 +125,10 @@ subprojects {
     implementation("commons-cli:commons-cli:$commons_cliVersion")
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("org.apache.commons:commons-email:$commons_emailVersion")
+    implementation("org.seleniumhq.selenium:selenium-java:$webDriver_version")
+    implementation("org.seleniumhq.selenium:selenium-api:$webDriver_version")
+    implementation("org.seleniumhq.selenium:selenium-chrome-driver:$webDriver_version")
 
-    
 
     val junitVersion = "5.10.0"
     val truthVersion = "1.1.5"
